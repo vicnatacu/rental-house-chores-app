@@ -1,0 +1,8 @@
+<div id="sidenav">
+<%if user_signed_in?%>
+ <%=link_to  'Chores List', root_path%>
+ <%=link_to  "Add an Chore", new_item_path%>
+ 
+ <%end%>
+
+</div>

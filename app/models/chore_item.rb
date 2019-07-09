@@ -1,0 +1,2 @@
+class ChoreItem < ApplicationRecord
+end

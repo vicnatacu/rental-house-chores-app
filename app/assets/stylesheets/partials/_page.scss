@@ -1,0 +1,42 @@
+body {
+    // display: flex;
+    // flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-image: url("bg-image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+    height: 100vh;
+    image-rendering: auto;
+    @include font-settings;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5)
+   
+  
+   
+
+}
+
+.page {
+     @include flex-center;
+     width: 80vw;
+}
+
+.heading {
+    font-family: $header-font;
+    color: $header-font-color;
+    @include flex-center
+  
+
+}
+
+.title {
+    font-family: $title-font;
+    color: $title-font-color;
+    @include flex-center
+}
+
+a {
+    text-shadow: none;
+}
